@@ -19,10 +19,10 @@ export default function layout({children}:{children: React.ReactNode}) {
                 <a href="../kegiatan_pembelajaran" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-500 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Pembelajaran</a>
               </li>
               <li>
-                <a href="../kegiatan_eksternal" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-500 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Eksternal</a>
+                <a href="/" className="block py-2 pl-3 pr-4 text-white bg-amber-500 rounded md:bg-transparent md:text-amber-500 md:p-0 dark:text-white" aria-current="page">Eksternal</a>
               </li>
               <li>
-                <a href="/" className="block py-2 pl-3 pr-4 text-white bg-amber-500 rounded md:bg-transparent md:text-amber-500 md:p-0 dark:text-white" aria-current="page">Daftar Guru</a>
+                <a href="../daftar_guru" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-500 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Daftar-Guru</a>
               </li>
             </ul>
           </div>
